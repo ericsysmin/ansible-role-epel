@@ -9,10 +9,10 @@ before_install:
 
 env:
   global:
-    - ROLE_NAME: kompose
+    - ROLE_NAME: epel
   matrix:
     - MOLECULE_DISTRO: centos:7
-    
+
 install:
   - pip install molecule docker
 
