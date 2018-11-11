@@ -40,5 +40,3 @@
     enabled: "{{ epel_source_repo_enabled }}"
     gpgkey: "{{ epel_source_repo_gpgkey }}"
     file: epel
-
-- debug: msg="the value of {{ epel_repofile_path }} is {{lookup('file', epel_repofile_path) }}"
