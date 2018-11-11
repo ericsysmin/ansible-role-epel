@@ -1,0 +1,5 @@
+---
+# tasks file for ericsysmin.epel
+
+- include_tasks: "{{ ansible_os_family|lower }}.yml"
+  when: ansible_os_family == "Redhat"
