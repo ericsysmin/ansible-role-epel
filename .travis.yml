@@ -12,6 +12,10 @@ env:
     - ROLE_NAME: epel
   matrix:
     - MOLECULE_DISTRO: centos:7
+    - MOLECULE_DISTRO: centos:7
+      MOLECULE_PLAYBOOK: manual_playbook.yml
+    - MOLECULE_DISTRO: centos:7
+      MOLECULE_PLAYBOOK: manual_baseurl_playbook.yml
     - MOLECULE_DISTRO: debian:stretch
     - MOLECULE_DISTRO: ubuntu:bionic
 
