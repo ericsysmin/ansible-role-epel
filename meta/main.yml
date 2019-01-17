@@ -4,7 +4,7 @@ galaxy_info:
   role_name: epel
   description: Role to configure EPEL on RHEL/CentOS based systems
   company: Avi Networks
-  license: Apache 2.0
+  license: MIT
   min_ansible_version: 2.4
   platforms:
     - name: EL
