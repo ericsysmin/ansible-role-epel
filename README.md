@@ -58,6 +58,14 @@ passed in as parameters) is always nice for users too:
     - role: ericsysmin.epel
 ```
 
+```yaml
+- hosts: all
+  roles:
+    - role: ericsysmin.epel
+      epel_manual: true
+      epel_repo_use_baseurl: true
+```
+
 ## License
 
 MIT
