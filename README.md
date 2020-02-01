@@ -1,4 +1,4 @@
-# ericsymsin.epel
+# ericsysmin.epel
 
 Role to install EPEL on RHEL systems
 
