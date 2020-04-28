@@ -1,3 +1,5 @@
+# THIS REPO IS NO LONGER MAINTAINED - MOVED TO [ericsysmin.system.epel](https://github.com/ericsysmin/ansible-collection-system)
+
 # ericsysmin.epel
 
 Role to install EPEL on RHEL systems
